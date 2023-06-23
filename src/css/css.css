@@ -1,0 +1,17 @@
+h1 {
+    background-color: aqua;
+}
+.p1 {
+    background-color:blueviolet;
+}
+.p2 {
+    background-color:chartreuse;
+    font-size: 20px;
+    border: 10px solid green;
+}
+.kursiv {
+    font-size: 24px;
+    background-color: darkgreen;
+    font-style: italic;
+    text-align: center;
+}
