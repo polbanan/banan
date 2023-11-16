@@ -134,7 +134,7 @@
 #
 # strcounter('asfgnas')
 
-import random
+# import random
 
 # def palindrom(s):
 #     return s[::-1] == s
@@ -182,31 +182,85 @@ import random
 #
 # print(g)
 
-def Work_2():
-    for x in range(0, 2):
-        """ Решения задания Номер 2"""
-        for y in range(0, 2):
-            for z in range(0, 2):
-                for w in range(0, 2):
-                    if (x or (not(y))) and ((not(x)) != (not(z))) and w:
-                        print(x, y, z, w)
-Work_2()
+# def Work_2():                      # Номер 5 дз
+#     for x in range(0, 2):
+#         for y in range(0, 2):
+#             for z in range(0, 2):
+#                 for w in range(0, 2):
+#                     if (x or (not(z))) and (x == (not(w))) and ((not(x)) or y):
+#                         print(x, y, z, w)
+# Work_2()
+
+# def Work_2():                      # Номер 6 дз
+#     for x in range(0, 2):
+#         for y in range(0, 2):
+#             for z in range(0, 2):
+#                 for w in range(0, 2):
+#                     if (x or y) and ((not(y)) != (not(z))) and not(w):
+#                         print(x, y, z, w)
+# Work_2()
+
+# def Work_2():                      # Номер 7 дз   Спросить насчет 7 задания насчет начала в решении и у меня ( not )
+#     for x in range(0, 2):
+#         for y in range(0, 2):
+#             for z in range(0, 2):
+#                 for w in range(0, 2):
+#                     if (not(x == (not(y))) or ((x and w) == (z and (not(w))))) == False:
+#                         print(x, y, z, w)
+# Work_2()
+
+# def Work_2():                      # Номер 8 дз
+#     for x in range(0, 2):
+#         for y in range(0, 2):
+#             for z in range(0, 2):
+#                 for w in range(0, 2):
+#                     if (y and ((not(x)) != (not(w))) and ((not(z)) or x)):
+#                         print(x, y, z, w)
+# Work_2()
+
+# Домашнее задание 1. 11) 2. 24) 3. 20) 4. 15) 5. wyzx) 6. xzyw) 7. Нужно узнать) 8. zxyw)
+
+# def Work_2():                      # Номер 8 дз
+#     for x in range(0, 2):
+#         for y in range(0, 2):
+#             for z in range(0, 2):
+#                 for w in range(0, 2):
+#                     if (((y <= x) and (z or w)) <= ((x and (not(w))) or (y == z))) == False:
+#                         print(x, y, z, w)
+# Work_2()
+#
+# def Work_2():                      # Номер 8 дз
+#     for x in range(0, 2):
+#         for y in range(0, 2):
+#             for z in range(0, 2):
+#                 for w in range(0, 2):
+#                     if (w <= (y == z)) and (y == (z <= x)):
+#                         print(x, y, z, w)
+# Work_2()
+
+# count = 0                                                           # Решение задачи дз от репетитора
+# lst = [i for i in range(245690,245757)]
+# def prost(lst):
+#     for a in lst:
+#         count = 0
+#         for i in range(2, a // 2+1):
+#             if a % i == 0:
+#                 count += 1
+#         if count <= 0:
+#             print(f'{lst.index(a) + 1} {a}')
+# prost(lst)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# a = int(input("Введите число: "))
+# k = 0
+# for i in range(2, a // 2+1):
+#     if (a % i == 0):
+#         k = k+1
+# if (k <= 0):
+#     print("Число простое")
+# else:
+#     print("Число не является простым")
+#
 
 
 
